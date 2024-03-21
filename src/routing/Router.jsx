@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Dashboard from "../pages/dashboard/Dashboard";
 import CreateAccount from "../pages/auth/CreateAccount";
 import WelcomeBack from "../pages/auth/WelcomeBack";
 import ForgottenPassword from "../pages/auth/ForgottenPassword";
@@ -17,12 +17,11 @@ export default function Router() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="*" element={<NotFound />} />
+         <Route index element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/welcomeback" element={<WelcomeBack />} />
         <Route path="/forgottenpassword" element={<ForgottenPassword />} />
-      </Routes>
     </BrowserRouter>
   );
 }
