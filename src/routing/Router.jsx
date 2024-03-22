@@ -8,6 +8,10 @@ import AboutUs from '../pages/AboutUs';
 import ContactUs from '../pages/ContactUs';
 import FAQ from '../pages/FAQ';
 import Homepage from '../pages/Homepage';
+import EarnPointExistingAccount from '../components/EarnPointExistingAccount';
+import EarnPointNewUser from '../components/EarnPointNewUser';
+
+
 export default function Router() {
   return (
     <BrowserRouter>
@@ -21,6 +25,9 @@ export default function Router() {
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/welcomeback" element={<WelcomeBack />} />
         <Route path="/forgottenpassword" element={<ForgottenPassword />} />
+        <Route path="/earnpointexistingaccount" element={<EarnPointExistingAccount />} />
+        <Route path="/earnpointnewuser" element={<EarnPointNewUser />} />
+
         </Routes>
     </BrowserRouter>
   );

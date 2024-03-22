@@ -113,7 +113,7 @@ const CreateAccount = () => {
           />
         </div>
 
-        <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded w-full">Sign Up</button>
+        <button type="submit" className="bg-cyan-400 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded w-full">Sign Up</button>
       </form>
 
       {/* Sign Up with Google */}
