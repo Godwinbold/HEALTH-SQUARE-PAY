@@ -8,7 +8,6 @@ import AboutUs from '../pages/AboutUs';
 import ContactUs from '../pages/ContactUs';
 import FAQ from '../pages/FAQ';
 import Homepage from '../pages/Homepage';
-import NotFound from '../pages/NotFound';
 export default function Router() {
   return (
     <BrowserRouter>
@@ -22,6 +21,7 @@ export default function Router() {
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/welcomeback" element={<WelcomeBack />} />
         <Route path="/forgottenpassword" element={<ForgottenPassword />} />
+        </Routes>
     </BrowserRouter>
   );
 }
