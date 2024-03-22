@@ -19,7 +19,7 @@ const EarnPointExistingAccount = () => {
           <input type="text" id="date" placeholder="--/--/--" className="border border-gray-400 rounded px-4 py-2" />
         </div>
       </form>
-      <div className="flex justify-between mt-16" style={{ height: '80px', padding: '12px 32px', gap: '16px', borderRadius: '5px 0px 0px 0px', borderTop: '1px', fontFamily: 'Inter', fontSize: '14px', fontWeight: '600', lineHeight: '16.94px', textAlign: 'center', background: 'white' }}>
+      <div className="flex ml-20 justify-between mt-11" style={{ height: '70px', padding: '12px 80px', gap: '16px', borderRadius: '5px 0px 0px 0px', borderTop: '1px', fontFamily: 'Inter', fontSize: '14px', fontWeight: '600', lineHeight: '16.94px', textAlign: 'center', background: 'white' }}>
         <button className="bg-gray-500 text-white px-8 py-2 rounded">Cancel</button>
         <button className="bg-cyan-500 text-white px-8 py-2 rounded">Submit</button>
       </div>
