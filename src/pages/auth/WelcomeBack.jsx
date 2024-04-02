@@ -6,11 +6,11 @@ function LoginForm() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center">
       <div className="">
-        <img src= {WelcomeBack} alt="Image" className="w-770 h-auto object-cover rounded-md" />
+        <img src= {WelcomeBack} alt="Image" className="w-100 h-50 object-cover rounded-md" />
       </div>
       <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
         <div className="text-center">
-          <h2 className="font-inter text-6xl font-semibold leading-[62px] tracking-wide text-center text-[#090914]">Welcome Back</h2>
+          <h2 className="font-inter text-6xl font-semibold leading-[62px] text-center text-[#090914]">Welcome Back</h2>
           <p className="mt-2 text-gray-600">Log in to your account.</p>
         </div>
         <form className="mt-8 space-y-6">

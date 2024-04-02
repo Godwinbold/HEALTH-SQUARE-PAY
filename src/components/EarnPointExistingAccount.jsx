@@ -3,7 +3,7 @@
 const EarnPointExistingAccount = () => {
   return (
     <div className="absolute top-6 border boreer-gray-1 left-6 w-511 h-70 p-24 ">
-      <h2 className="font-bold border bg-cyan-400 px-10 py-5 gap-10 rounded-lg">Enter the correct details of your transaction below</h2>
+      <h2 className="font-bold border bg-cyan-300 px-10 py-5 gap-10 rounded-lg">Enter the correct details of your transaction below</h2>
       <p className="font-inter text-sm font-normal leading-3.82 tracking-tighter text-center">By filling this form you agree to the terms and condition guiding the award <br/> for points.</p>
       <form className="mt-16" style={{ top: '166px', left: '37px', gap: '16px' }}>
         <div className="flex flex-col">
@@ -20,7 +20,7 @@ const EarnPointExistingAccount = () => {
         </div>
       </form>
       <div className="flex ml-20 justify-between mt-11" style={{ height: '70px', padding: '12px 80px', gap: '16px', borderRadius: '5px 0px 0px 0px', borderTop: '1px', fontFamily: 'Inter', fontSize: '14px', fontWeight: '600', lineHeight: '16.94px', textAlign: 'center', background: 'white' }}>
-        <button className="bg-gray-500 text-white px-8 py-2 rounded">Cancel</button>
+        <button className="bg-gray-100 text-black px-8 border border-gray-400 py-2 rounded">Cancel</button>
         <button className="bg-cyan-500 text-white px-8 py-2 rounded">Submit</button>
       </div>
     </div>

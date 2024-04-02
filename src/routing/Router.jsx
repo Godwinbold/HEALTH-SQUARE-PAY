@@ -10,6 +10,7 @@ import FAQ from '../pages/FAQ';
 import Homepage from '../pages/Homepage';
 import EarnPointExistingAccount from '../components/EarnPointExistingAccount';
 import EarnPointNewUser from '../components/EarnPointNewUser';
+import ResetPassword from "../pages/auth/ResetPassword";
 
 
 export default function Router() {
@@ -25,6 +26,7 @@ export default function Router() {
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/welcomeback" element={<WelcomeBack />} />
         <Route path="/forgottenpassword" element={<ForgottenPassword />} />
+        <Route path="/resetpassword" element={<ResetPassword/>} />
         <Route path="/earnpointexistingaccount" element={<EarnPointExistingAccount />} />
         <Route path="/earnpointnewuser" element={<EarnPointNewUser />} />
 
