@@ -2,9 +2,9 @@
 
 const EarnPointExistingAccount = () => {
   return (
-    <div className="absolute top-6 border boreer-gray-1 left-6 w-511 h-70 p-24 ">
-      <h2 className="font-bold border bg-cyan-300 px-10 py-5 gap-10 rounded-lg">Enter the correct details of your transaction below</h2>
-      <p className="font-inter text-sm font-normal leading-3.82 tracking-tighter text-center">By filling this form you agree to the terms and condition guiding the award <br/> for points.</p>
+    <div className="absolute top-6 border boreer-gray-1 left-6 w-511 h-70 p-24 ml-20">
+      <h2 className="font-bold text-base text-white border bg-cyan-500 px-10 py-5 gap-10 rounded-lg">Enter the correct details of your transaction below</h2>
+      <p className="font-inter text-l font-normal leading-3.82 tracking-tighter text-center">By filling this form you agree to the terms and condition guiding the award <br/> for points.</p>
       <form className="mt-16" style={{ top: '166px', left: '37px', gap: '16px' }}>
         <div className="flex flex-col">
           <label htmlFor="amountSpent" className="font-bold">Amount spent</label>
