@@ -59,14 +59,14 @@ const CreateAccount = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white text-white">
-      <div className="mb-8">
+      <div className="mb-4">
         <h1 className="text-4xl text-black font-semibold text-center">Create Account</h1>
       </div>
 
-      <p className="bg-gray-700 px-4 py-2 rounded">Create a free Healthsquare Pay account</p>
+      <p className="text-white bg-cyan-500 px-4 py-2 rounded">Create a free Healthsquare Pay account</p>
 
 
-      <form className="mt-8 w-full max-w-xs" onSubmit={handleSubmit}>
+      <form className="mt-6 w-full max-w-xs" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="fullname" className="block text-black text-sm mb-2">Full Name</label>
           <input
