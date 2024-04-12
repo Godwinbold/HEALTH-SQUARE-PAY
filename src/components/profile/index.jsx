@@ -4,7 +4,7 @@ import Input from "./Input";
 import Select from "./Select";
 import { countryList } from "./data";
 
-const Profile = () => {
+const EditUser = () => {
   const [states, setStates] = useState([]);
   const [formData, setFormData] = useState({
     FullName: "",
@@ -161,4 +161,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default EditUser;

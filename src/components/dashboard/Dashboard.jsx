@@ -1,4 +1,4 @@
-import SearchSvg from "./SearchSvg";
+import SearchSvg from "./SearchSvg.jsx";
 import "./Dashboard.css";
 import { data } from "./data.js";
 import { useState } from "react";
