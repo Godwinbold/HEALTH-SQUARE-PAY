@@ -60,7 +60,7 @@ const Profile = () => {
                   Support
                 </button>
 
-                <button className="w-full  text-center bg-white border border-[#E0E0E0] border-solid text-black block  py-4 px-2">
+                <button className="w-full  text-center bg-white border border-[#E0E0E0] border-solid text-black block  py-4 px-2  ">
                   Logout
                 </button>
               </div>
