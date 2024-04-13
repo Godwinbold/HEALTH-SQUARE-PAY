@@ -5,14 +5,14 @@ import { useState } from "react";
 
 const Profile = () => {
   const [isActive, setIsActive] = useState(true);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <div
-        className="w-full py-[22px] md:px-[120px] flex items-center justify-between"
+        className="w-full py-[22px] md:px-[120px] px-4 flex items-center justify-between"
         style={{ boxShadow: " 0px -1px 1px 0px #0000001A inset" }}
       >
-        <div className="logo">
+        <div className="logo hidden md:block">
           <img src={Logo} alt="logo" />
         </div>
         <div className="flex gap-4 items-center">
@@ -51,11 +51,13 @@ const Profile = () => {
             <img
               src={Caret}
               alt="caret"
-              className="cursor-pointer"
+              className={`cursor-pointer transition-[transform] duration-300 ${
+                isOpen ? "transform rotate-180 " : ""
+              }`}
               onClick={() => setIsOpen(!isOpen)}
             />
             {isOpen && (
-              <div className="absolute top-[60px] right-10  w-[259px] p-2 flex flex-col  z-20">
+              <div className="absolute top-[60px] right-0  w-[259px] p-2 flex flex-col  z-20">
                 <button className="w-full text-center bg-white border border-[#E0E0E0] text-black block py-4 px-2">
                   Support
                 </button>
